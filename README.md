@@ -1,0 +1,1 @@
+[![Build Status](https://dev.azure.com/gavuji-pradeep-new-org/gavuji-org-2024/_apis/build/status%2Fgavuji.gitApp?branchName=master)](https://dev.azure.com/gavuji-pradeep-new-org/gavuji-org-2024/_build/latest?definitionId=11&branchName=master)
