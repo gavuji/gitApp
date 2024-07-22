@@ -1,5 +1,4 @@
 ﻿name: Node Continuous Integration
-
 on:
   push:
     branches: 
