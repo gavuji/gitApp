@@ -1,0 +1,23 @@
+﻿name: Node Continuous Integration
+
+on:
+  push:
+    branches: 
+        - main
+  pull_request: 
+    branches: 
+        - main
+jobs:
+   build:
+        name: Azure Pipelines
+        runs-on: ubuntu-latest
+        steps:
+        - name : Azure Pipelines Action
+          uses:  Azure/pipelines@v1
+          with:
+            azure-devops-project-url: https://dev.azure.com/gavuji-pradeep-new-org/gavuji-org-2024
+            azure-pipeline-name: 'gavuji.gitApp'
+            azure-devops-token : ${{ secrets.AZURE_DEVOPS_TOKEN }}
+  
+
+    
